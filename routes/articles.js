@@ -10,7 +10,7 @@ const storage = multer.diskStorage({
         callback(null,file.originalname)
     }
 })
-
+s
 const upload = multer({storage: storage});
 
 //gets all articles
