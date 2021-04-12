@@ -26,7 +26,7 @@ function App(props) {
   return (
     <div className="App">
       <Navbar/>
-      <Header />
+    
       <Switch>
       <Route  exact path='/'   render={() => <Home/>} />
       </Switch>

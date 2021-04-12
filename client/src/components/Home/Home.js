@@ -1,13 +1,13 @@
 import Navbar from '../layouts/Navbar'
+import Header from '../layouts/Header'
 
 import React from 'react'
 import {Card,Button, Container, Row} from 'react-bootstrap'
 
 const Home = () => {
     return (
-        <Container >
-
-       
+        <Container >   
+        <Header/>    
 <div >
 <Row>
   <Card style={{ width: '18rem',margin:10,padding:10 }}>
