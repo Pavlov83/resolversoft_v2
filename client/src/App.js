@@ -10,6 +10,8 @@ import {Route,Switch} from 'react-router-dom';
 import AddArticle from './components/AddArticle'
 import Article from './components/Article'
 import EditArticle from './components/EditArticle'
+import ArticlesList from './components/ArticlesList'
+import Home from './components/Home/Home'
 
 
 function App(props) {
@@ -26,7 +28,16 @@ function App(props) {
       <Navbar/>
       <Header />
       <Switch>
-      <Route  exact path='/'   render={() => <Articles posts={posts} />} />
+      <Route  exact path='/'   render={() => <Home/>} />
+      </Switch>
+      <Switch>
+      <Route  exact path='/articles-list'   render={() => <ArticlesList posts={posts} />} />
+      </Switch>
+      <Switch>
+      <Route  exact path='/articles-list'   render={() => <ArticlesList posts={posts} />} />
+      </Switch>
+      <Switch>
+      <Route  path='/articles'   render={() => <Articles posts={posts} />} />
       </Switch>
       <Switch>
       <Route  path='/article/:id'   render={(props) => <Article {...props} posts={posts} />} />

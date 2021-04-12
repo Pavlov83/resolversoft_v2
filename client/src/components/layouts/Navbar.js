@@ -17,14 +17,16 @@ const Navbar = () => {
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
 
-        <Link className="nav-link" to="/">All posts 
+        <Link className="nav-link" to="/articles">Edit Posts
         <span className="sr-only"> </span>
         </Link> 
+       
       </li>
       <li className="nav-item active">
         <Link className="nav-link" to="/add-article">Add Post 
         <span className="sr-only"> </span>
         </Link> 
+        
       </li>
       
     </ul>
