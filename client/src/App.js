@@ -34,9 +34,6 @@ function App(props) {
       <Route  exact path='/articles-list'   render={() => <ArticlesList posts={posts} />} />
       </Switch>
       <Switch>
-      <Route  exact path='/articles-list'   render={() => <ArticlesList posts={posts} />} />
-      </Switch>
-      <Switch>
       <Route  path='/articles'   render={() => <Articles posts={posts} />} />
       </Switch>
       <Switch>
@@ -48,7 +45,7 @@ function App(props) {
       <Switch>
       <Route path='/add-article' component={AddArticle} />
       </Switch>
-      <Footer />
+     
      <br />
     </div>
   );

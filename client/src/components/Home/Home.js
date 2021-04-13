@@ -1,5 +1,6 @@
 import Navbar from '../layouts/Navbar'
 import Header from '../layouts/Header'
+import Footer from '../layouts/Footer'
 
 import React from 'react'
 import {Card,Button, Container, Row} from 'react-bootstrap'
@@ -40,7 +41,7 @@ const Home = () => {
      <Card.Text>
    Series of tutorials for Vanilla JavaScript.Including ES6 Syntax,Design Patterns  and more...
  </Card.Text>
- <Button variant="secondary">   React Tutorials  </Button>
+ <Button variant="secondary">   Coming Soon!!!  </Button>
 </Card.Body>
 </Card>
 
@@ -51,7 +52,7 @@ const Home = () => {
      <Card.Text>
   Series of tutorials for common algorithms and data structures and general computer science 
  </Card.Text>
- <Button variant="secondary">   Computer Science  </Button>
+ <Button variant="secondary">   Coming Soon!!!  </Button>
 </Card.Body>
 </Card>
 
@@ -62,7 +63,7 @@ const Home = () => {
      <Card.Text>
   Series of tutorials for Linear Algebra, Equations,Matrix calculations,solving problems by math principles 
  </Card.Text>
- <Button variant="secondary">   Math Studies  </Button>
+ <Button variant="secondary">   Coming Soon!!! </Button>
 </Card.Body>
 </Card>
 
@@ -74,7 +75,7 @@ const Home = () => {
      <Card.Text>
          Tutorials for the Java Language,OOP Concepts,DataTypes,Loops and More...
  </Card.Text>
- <Button variant="secondary">   Java Tutorials  </Button>
+ <Button variant="secondary">   Coming Soon!!!  </Button>
 </Card.Body>
 </Card>
 
@@ -83,6 +84,7 @@ const Home = () => {
 </Row>
 
 </div>
+<Footer />
 </Container>
        
         
